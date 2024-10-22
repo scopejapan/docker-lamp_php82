@@ -1,0 +1,7 @@
+FROM mariadb:latest
+
+# 必要なツールのインストール
+RUN apt-get update && apt-get install -y mariadb-client mariadb-server
+
+# MariaDBをデフォルトのエントリポイントとして設定
+CMD ["mysqld"]
