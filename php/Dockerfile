@@ -10,6 +10,7 @@ RUN apt-get update && apt-get install -y \
     zip \
     unzip \
     git \
+    default-mysql-client \
     libfreetype6-dev \
     libjpeg62-turbo-dev \
     libpng-dev \
